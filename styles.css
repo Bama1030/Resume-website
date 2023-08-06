@@ -1,0 +1,281 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 2px;
+}
+
+body{
+	margin-top: 0%;
+}
+
+
+
+/*Body Header*/
+
+#body-header{
+	opacity: 0.9;
+	width: 100%;
+	height: 45vh;
+	margin: 0%;
+	background-image: url("562792-blogging-business.jpg");
+	background-size: cover;
+	background-position: center;
+	background-attachment:fixed;
+}
+#bg{
+	background-color: #71e8d240;
+
+}
+.text-center h1{
+	color: white;
+	text-align: center;
+}
+
+
+/* #name-social-container{
+} */
+
+#my-image{
+	box-shadow: rgb(90, 88, 88);
+	shape-outside: border-box;
+	border-radius: 50%;
+}
+
+#my-image{
+	height: 12rem;
+	width: 12rem;
+	margin: auto;
+	margin-top: -15vh;
+	position: relative;
+	background-color: #42444340;
+}
+#image{
+	background-clip: border-box;
+	padding-bottom: 0%;
+	margin-bottom: 0%;
+}
+
+#my-image img{
+	height: 100%;
+	width: 100%;
+	border-radius: 50%;
+}
+
+
+
+.vertical-list1 li a{
+	text-decoration: none;
+	text-transform: capitalize;
+
+}
+.vertical-list1 li{
+	/*	display: inline-block;*/
+		margin: 0px 8px 8px 0px;
+		list-style: none;
+		font-size: 0,9rem;
+}
+
+.link:visited{
+	color: green;
+}
+.link:active{
+	color: red;
+}
+
+
+
+
+/*horizontal list*/
+
+.horizontal-list{
+	animation-delay: 50;
+	list-style: none;
+	padding-left: 0px;
+}
+.horizontal-list li{
+	display: inline-block;
+	margin: 0px 8px 8px 0px;
+	font-size: 0,9rem;
+}
+.horizontal-list li a{
+	color: white;
+	text-decoration: none;
+}
+.nav-menu{
+	transition: color 0.5s, border-bottom 4s;
+}
+
+.nav-menu li a:hover{
+	color: blue;
+	border-bottom: 1px solid white;
+	transition: 0.9s;
+}
+
+.text-center{
+	text-align: center;
+}
+
+.social-icons li a i{
+	color: blue;
+	padding: 10px;
+	font-size: 1rem;
+	border-radius: 50%;
+}
+/* .social-icons li a i:hover{
+	box-shadow: 1px 1px 6px 4px rgba(230,196,196,0,3);
+} */
+
+
+
+#about{
+	height: auto;
+	width: 100%;
+	position: relative;
+}
+
+#h{
+	position: sticky;
+	color: black;
+	text-align: center;
+	border-bottom: grey;
+	text-justify: auto;
+}
+
+/*skills*/
+#skills{
+	padding-top: 0%;
+	padding-bottom: 1%;
+}
+
+#h3{
+	text-align: center;
+	background-color: rgb(163, 218, 224);
+/*	border-radius: 20%;*/
+}
+#card1{
+	text-align: center;
+	width: 10rem;
+	background-color: rgb(183, 188, 189);
+	border-radius: 0.3rem;
+}
+#card3{
+	text-align: center;
+	width: 13rem;
+	background-color: rgb(183, 188, 189);
+	border-radius: 0.3rem;
+}
+
+#card2{
+	text-align: center;
+	width: 4rem;
+	background-color: rgb(112, 136, 145);
+	border-radius: 10rem;
+
+}
+
+
+
+p{
+text-decoration:none;
+text-align: center;
+}
+
+
+.widget{
+	border-top: 4px solid black;
+	padding: 4px;
+}
+.widget input{
+	padding: 4px;
+	display: block;
+	margin-bottom: 15px;
+}
+
+/* #cont-form {
+	width: 400px;
+	padding: 24px;
+	margin-left: auto;
+	margin-right: auto;
+	margin: 3px;
+	box-shadow: 0 2px 2px;
+	
+} */
+
+/* #contact{
+	padding: 0% 16%;
+} */
+
+form {
+	display: flex;
+	flex-direction: column;
+	padding-left: 300px;
+	padding-right: 300px;
+	margin: 3px;
+	
+}
+
+label {
+	font-size: 20px;
+	margin-bottom: 2px;
+}
+
+input, textarea {
+	font-size: 16px;
+	padding: 10px;
+	margin-bottom: 10px;
+	border-radius: 5px;
+	border-color: rgb(195, 193, 193);
+}
+
+input[type="submit"] {
+	background-color: #333;
+	color: #fff;
+	font-size: 16px;
+	padding: 10px 20px;
+	cursor: pointer;
+	border-radius: 5px;
+	border: none;
+}
+
+input[type="submit"]:hover {
+	background-color: #aad9d3;
+	border-radius: 5%;
+	padding-left: 20px;
+	padding-right: 20px;
+	background-position: center;
+}
+
+#c{
+	text-align: center;
+	background-color: rgb(253, 218, 205);
+}
+
+.input-item:focus{
+	background-color: rgb(253, 218, 205);
+}
+.input-items:focus:required {
+	background-color: lightblue;
+}
+
+/* main{
+	width: 75%;
+	display: inline-block;
+}
+
+aside{
+	width: 20%;
+	display: inline-block;
+}
+
+.position section{
+	position: relative;
+	right: 0%;
+	top: 0%;
+	bottom: 0%;
+
+}
+
+.position{
+	right: 0%;
+	top: 0%;
+} */
